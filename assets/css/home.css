@@ -1,0 +1,177 @@
+header{
+	background: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	text-align: center;
+	padding: 180px 0px 180px 0px;
+	margin-top: 85px;
+}
+
+header .intro-text {
+
+	background: #000000;
+	opacity: 0.6;
+	padding-bottom: 10px;
+	margin: 10px 0 10px 0;
+}
+
+
+header .intro-text h1{
+	font-family: quicksand, helvetica, arial;
+	color: #fff;
+	font-size: 90px;
+}
+header .intro-text h3{
+	font-family: quicksand, helvetica, arial;
+	color: #fff;
+	font-size: 36px;
+}
+header a img{
+	margin-top: 95px;
+	margin-bottom: -40px;
+}
+.section-intro{
+	background-color: #fff;
+	padding: 100px 0px 0px 0px;
+}
+.left-brief-intro{
+	font-family: quicksand, helvetica, arial;
+	color: #c7aa31;
+	font-size: 30px;
+}
+.right-brief-intro{
+	font-family: quicksand, helvetica, arial;
+	color: #353535;
+	font-size: 16px;
+	margin-top: 20px;
+}
+.left-separator{
+	border-top: 3px solid #c7aa31; margin-top: 30px;
+}
+.section-intro .row img{
+	margin: 80px auto 80px auto;
+	display: block;
+
+}
+
+.section-quote{
+	background-color: #c7aa31;
+	padding: 40px 0px;
+	color: #ffffff;
+	font-family: quicksand, helvetica, arial;
+	font-size: 24px;
+	margin-top: 20px;
+}
+.download-brief-button{
+	border: none;
+	font-family: quicksand, helvetica, arial;
+	border-radius: 3px;
+	color: #c7aa31;
+	padding-left: 45px;
+	background: url(../../media/images/icon-brief.png);
+	background-repeat: no-repeat;
+	background-position: 15px 10px;
+	background-color: white;
+	width: 300px;
+	height: 65px;
+}
+.download-brief-button:hover{
+	background-color: #c7aa31;
+	color: white;}
+
+.section-submit{
+	text-align: center;
+	padding: 60px 0px;
+	font-size: 18px;
+	color: #353535;
+}
+.section-submit p{
+	font-size: 24px;
+	font-family: quicksand, helvetica, arial;
+}
+.section-submit p span{
+	color: #c7aa31;
+	font-family: quicksand, helvetica, arial;
+}
+.section-submit button{
+	color: #ffffff;
+	background-color: #c7aa31;
+	width: 260px;
+	height: 70px;
+	font-size: 24px;
+	font-family: quicksand, helvetica, arial;
+	text-decoration: none;
+	border: none;
+	margin: 20px 0px 30px 0px;
+}
+.section-submit a{
+	margin-left: 10px;
+}
+#icon-share{
+	margin-left: 20px;
+}
+
+.logo-partner{
+	width:63%; margin-top:33px;
+}
+.popup-facebook:hover,.popup-twitter:hover{
+	cursor:pointer;
+}
+
+#button-submit-tagline{
+	margin-left: 30px;
+}
+@media(max-width:992px){
+	.section-quote{
+		text-align: center;
+	}
+	.section-quote button{
+		margin-top: 20px;
+	}
+	.section-intro img{
+		width: 90%;
+		margin: 40px auto;
+	}
+	.logo-partner{
+		width: 90%;
+	}
+}
+
+@media(max-width: 768px){
+	header .intro-text h1{font-size: 85px;}
+	header .intro-text h3{font-size: 26px;}
+}
+@media(max-width: 611px){
+	#button-submit-tagline{
+	margin-left: 0px;
+}
+}
+@media(max-width: 570px){
+	header .intro-text h1{font-size: 76px;}
+}
+@media(max-width:511px){
+	header .intro-text h1{	
+	font-size: 66px;
+}
+	header .intro-text h3{
+		font-size: 24px;
+}
+}
+@media(max-width: 470px){
+	header .intro-text h1{
+		font-size: 60px;
+	}
+	header a img{
+		margin-top: 60px;
+	}
+	header .fadeInDown{width:27%;}
+}
+@media(max-width:511px){
+	header .intro-text h1{	
+	font-size: 50px;
+}
+	header .intro-text h3{
+		font-size: 18px;
+}
+}
